@@ -10,11 +10,11 @@ const AppRouter = () => {
   return (
     <div>
       <Routes>
-        <Route path='/posts' element={<Posts />} />
-        <Route path='/posts/:id' element={<PostIdPage />} />
-        <Route path='/testing/:name' element={<Quiz />} />
-        <Route path='/testing' element={<Testing />} />
-        <Route path='/' element={<Home />} />
+        <Route path='/react-posts-quiz/posts' element={<Posts />} />
+        <Route path='/react-posts-quiz/posts/:id' element={<PostIdPage />} />
+        <Route path='/react-posts-quiz/testing/:name' element={<Quiz />} />
+        <Route path='/react-posts-quiz/testing' element={<Testing />} />
+        <Route path='/react-posts-quiz/' element={<Home />} />
       </Routes>
     </div>
   )
