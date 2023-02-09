@@ -1,0 +1,8 @@
+.MyInput{
+  padding: 5px 10px;
+  border: 1px solid rgb(62, 118, 196);
+  border-radius: 5px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}

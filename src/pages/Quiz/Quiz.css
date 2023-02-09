@@ -1,0 +1,11 @@
+.Quiz {
+  margin: 100px auto 0;
+  max-width: 600px;
+
+}
+
+.Quiz__title {}
+
+.Quiz__error {
+  text-align: center;
+}

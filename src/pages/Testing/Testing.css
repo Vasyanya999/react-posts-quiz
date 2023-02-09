@@ -1,0 +1,37 @@
+.Testing {}
+
+.Testing__title {
+  text-align: center;
+}
+
+.Testing__list {
+  margin-top: 40px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 0;
+  align-items: center;
+}
+
+.Testing__item {}
+
+.Testing__list a {
+  display: inline-block;
+  min-width: 300px;
+  position: relative;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  border: 1px solid #000;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.Testing__number {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  font-size: 12px;
+  color: #4c4c4c;
+}

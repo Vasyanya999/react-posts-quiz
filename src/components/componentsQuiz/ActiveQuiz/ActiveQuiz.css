@@ -1,0 +1,23 @@
+.ActiveQuiz {
+  margin: 30px auto;
+  border: 2px solid rgb(62, 196, 138);
+  box-shadow: 3px 3px 8px rgb(0 0 0 / 25%);
+  width: 100%;
+  border-radius: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.ActiveQuiz__question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ActiveQuiz__qustions {
+  min-width: 50px;
+}
+
+.ActiveQuiz-none {
+  display: none;
+}

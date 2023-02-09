@@ -1,0 +1,23 @@
+.NavBar{
+  /* border: 2px solid #a3a3a3; */
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+.NavBar__link{
+  padding: 5px 15px;
+  color: rgb(62, 118, 196);
+  font-size: 16px;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid rgb(62, 118, 196);
+  border-radius: 5px;
+ 
+  text-decoration: none;
+}

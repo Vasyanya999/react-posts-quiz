@@ -1,0 +1,19 @@
+.App {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 0 10px;
+
+}
+
+hr {
+  margin: 15px 0;
+  border-top: 2px solid rgb(62, 118, 196);
+  border-bottom: none;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(90deg, rgba(241, 199, 29, 0.4) 20%, rgba(17, 223, 230, 0.4) 100%);
+}
+
+/* rgba(62, 196, 138, 0.4) */

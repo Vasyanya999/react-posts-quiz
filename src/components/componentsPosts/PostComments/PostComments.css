@@ -1,0 +1,11 @@
+.PostComments{
+margin-top: 20px;
+}
+.PostComments__title{
+
+}
+.PostComments__row{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

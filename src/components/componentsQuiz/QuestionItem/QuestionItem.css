@@ -1,0 +1,28 @@
+.QuestionItem {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.QuestionItem__error {
+  font-size: 30px;
+  line-height: 0;
+  padding-top: 7px;
+  color: rgb(179, 12, 12);
+  margin-left: 10px;
+  min-width: 40px;
+}
+
+.QuestionItem__success {
+  font-size: 30px;
+  line-height: 0;
+  color: rgb(5, 116, 5);
+  margin-left: 10px;
+  min-width: 40px;
+  padding-top: 10px;
+}
+
+.QuestionItem__text {
+  margin: 0;
+}

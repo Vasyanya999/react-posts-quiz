@@ -1,0 +1,19 @@
+.Loader{
+  margin: 21px auto 0 auto;
+  width: 40px;
+  height: 40px;
+  border: 6px dashed rgb(62, 118, 196);
+  border-radius: 50%;
+  animation: load 4s linear infinite;
+}
+
+@keyframes load{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    
+    transform: rotate(360deg);
+    
+  }
+}

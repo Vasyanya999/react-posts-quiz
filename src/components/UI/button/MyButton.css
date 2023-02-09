@@ -1,0 +1,16 @@
+.MyButton{
+  padding: 5px 15px;
+  color: rgb(62, 118, 196);
+  font-size: 14px;
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid rgb(62, 118, 196);
+  border-radius: 5px;
+  margin-top: 10px;
+  max-width: 200px;
+}
+.MyButton:disabled{
+  color: #ccc;
+  border: 1px solid #ccc;
+  pointer-events: none;
+}
