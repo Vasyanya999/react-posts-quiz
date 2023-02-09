@@ -15,7 +15,7 @@ const PostItem = ({ post, number, remove }) => {
         <MyButton onClick={() => remove(post)}>
           Удалить
         </MyButton>
-        <MyButton onClick={() => router(`/posts/${post.id}`)}>
+        <MyButton onClick={() => router(`/react-posts-quiz/posts/${post.id}`)}>
           Открыть
         </MyButton>
       </div>
