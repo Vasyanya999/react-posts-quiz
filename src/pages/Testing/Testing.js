@@ -7,13 +7,13 @@ const Testing = () => {
       <h1 className='Testing__title'> Выберите тест </h1>
       <ul className='Testing__list'>
         <li className='Testing__item'>
-          <Link to='/testing/informatics'>Информатика</Link>
+          <Link to='/react-posts-quiz/testing/informatics'>Информатика</Link>
         </li>
         <li className='Testing__item'>
-          <Link to='/testing/biology'>Биология</Link>
+          <Link to='/react-posts-quiz/testing/biology'>Биология</Link>
         </li>
         <li className='Testing__item'>
-          <Link to='/testing/psychology'>Психология</Link>
+          <Link to='/react-posts-quiz/testing/psychology'>Психология</Link>
         </li>
       </ul>
     </div>
